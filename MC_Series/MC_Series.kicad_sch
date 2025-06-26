@@ -1,0 +1,216 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "562f0466-4b33-457c-9475-874a1201f7de")
+	(paper "A4")
+	(title_block
+		(title "Common blocks form MC Products")
+		(date "2025-06-26")
+		(rev "1.0")
+		(company "Nelees")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 171.45)
+		(size 31.115 17.145)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d64cd1d2-87b1-41b6-83d7-f0a2e37f53d7")
+		(property "Sheetname" "ac_entry"
+			(at 25.4 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ac_enttry.kicad_sch"
+			(at 25.4 189.1796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 35.56 171.45 90)
+			(uuid "4d85d3c1-37e8-444e-ac03-34bc74ff48e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V0" output
+			(at 39.37 171.45 90)
+			(uuid "b8e20792-30e6-4d2d-be8c-6d43aa9e7517")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AC_N" input
+			(at 56.515 181.61 0)
+			(uuid "b3b903c8-ac73-4e48-a812-a402b2c8fa91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AC_PE" input
+			(at 56.515 179.07 0)
+			(uuid "221ec152-c5fe-43d5-a053-3c0d65532b0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" output
+			(at 43.18 171.45 90)
+			(uuid "87e5c237-e1d2-4d8d-890d-b2711c093c3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "­AC_L" input
+			(at 56.515 184.15 0)
+			(uuid "3376d7fb-88c7-4d6c-8722-7550a356d126")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MC_Series"
+				(path "/562f0466-4b33-457c-9475-874a1201f7de"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 32.385 116.205)
+		(size 27.305 28.575)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efcfc51e-9a6c-465c-b63a-4d233e1de3bf")
+		(property "Sheetname" "channel"
+			(at 32.385 115.4934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "channel.kicad_sch"
+			(at 32.385 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AC_L" input
+			(at 32.385 125.73 180)
+			(uuid "c08a9afc-b780-49b8-b3e2-152aaec81039")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AC_N" input
+			(at 32.385 129.54 180)
+			(uuid "f68a8568-a3f5-4365-9353-77d205af7768")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "F_RA" output
+			(at 59.69 121.92 0)
+			(uuid "c517bf2f-78b0-4af9-83a3-cca4457183ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "F_SP" output
+			(at 59.69 125.73 0)
+			(uuid "f1ff21e3-0634-44bd-b998-9f3e8b4b139b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RC" input
+			(at 59.69 129.54 0)
+			(uuid "23261997-2563-4f61-b55b-0f95b1f82733")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MC_Series"
+				(path "/562f0466-4b33-457c-9475-874a1201f7de"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
