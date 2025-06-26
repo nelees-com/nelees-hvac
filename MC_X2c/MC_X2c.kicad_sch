@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7c61db7a-af98-4251-97f0-4a36956e03cd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 37.465 107.315)
+		(size 31.75 28.575)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e534c84-f264-4e31-bc62-03d270ed6699")
+		(property "Sheetname" "channel"
+			(at 37.465 106.6034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "channel.kicad_sch"
+			(at 37.465 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MC_X2c"
+				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 37.465 148.59)
+		(size 33.655 19.685)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b18795d0-8482-4f6f-8249-1321515800c6")
+		(property "Sheetname" "ac_entry"
+			(at 37.465 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ac_entry.kicad_sch"
+			(at 37.465 168.8596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MC_X2c"
+				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
