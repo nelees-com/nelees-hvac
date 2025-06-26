@@ -36,7 +36,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ac_enttry.kicad_sch"
+		(property "Sheetfile" "ac_entry.kicad_sch"
 			(at 25.4 189.1796 0)
 			(effects
 				(font
