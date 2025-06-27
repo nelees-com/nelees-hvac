@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "AC Entry")
-		(date "2025-06-1")
+		(date "2025-06-27")
 		(rev "1.0")
 		(company "Nelees")
 	)
@@ -2450,7 +2450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55381f6c-e41b-410f-b004-7bf9a5ba552a")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 194.31 36.83 0)
 			(effects
 				(font
@@ -2513,7 +2513,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
