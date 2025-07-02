@@ -428,7 +428,7 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "ignore",
+      "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
@@ -627,47 +627,47 @@
       "channel1"
     ],
     [
-      "404ba23b-71f5-42fb-a23a-adf3bfc1b6b5",
+      "6fdd0f1d-ba90-45c7-b3c1-8be038244b2d",
       "channel2"
     ],
     [
-      "4408dd6e-cab0-4c81-b4f0-011511de62ac",
+      "8c809e2e-ddc7-49ef-9184-d86416d8b12d",
       "channel3"
     ],
     [
-      "55647ac5-6230-4bb0-a896-628b71d19bb9",
+      "cbf42989-c667-412c-9a31-e3e58be770e1",
       "channel4"
     ],
     [
-      "1e2c1fa6-95d0-4b15-beee-88ce6c802f99",
+      "df77076d-e0f1-4a41-8366-d42ed4b042a8",
       "channel5"
     ],
     [
-      "1f59907b-dadd-4c54-8836-8853f7fcdd47",
+      "5fe75f2e-2281-4e2d-900d-d3b4d3daacb3",
       "channel6"
     ],
     [
-      "d5a36988-665f-46c0-8916-6c416c7e871a",
+      "3089a6f1-0d25-49cd-aa1a-04d80a95e0df",
       "channel7"
     ],
     [
-      "652ed4f9-c891-4efb-a1e5-b652ffdfccab",
+      "79b78981-c23d-4004-bc20-0981837f3e8d",
       "channel8"
     ],
     [
-      "cbcf127a-e7ca-4746-a443-a0224141761f",
+      "abef0e1a-1230-4862-a9ca-1acac0efed96",
       "channel9"
     ],
     [
-      "2bc7a06b-3ecc-4f0b-a0ed-e77521aedb75",
+      "26cfeebc-1233-4b49-b3a4-72650af379f1",
       "channel10"
     ],
     [
-      "8ef84cfd-0169-4ca8-9306-94fb907b6dd5",
+      "b3377fb4-c5c7-4c7f-af7f-c42326992d4d",
       "channel1c"
     ],
     [
-      "1aeef19c-5bd4-4b04-b268-c5627da096d9",
+      "b6b6fa06-cc0d-4cc1-8408-b858cde1b3dd",
       "channel2c"
     ]
   ],

@@ -3324,7 +3324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b5eb7a9-824b-4fa4-940c-451a2642ee37")
-		(property "Reference" "F_LOGIC_MAIN"
+		(property "Reference" "F_LOGIC_MAIN1"
 			(at 38.1 85.344 90)
 			(effects
 				(font
@@ -3383,7 +3383,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "F_LOGIC_MAIN")
+					(reference "F_LOGIC_MAIN1")
 					(unit 1)
 				)
 			)
@@ -3398,22 +3398,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0da68f4c-3a08-4642-962d-3bbf785700c7")
-		(property "Reference" "D_ESD_5V0_OUT"
-			(at 173.99 93.98 0)
+		(property "Reference" "D_ESD_5V0_OUT1"
+			(at 167.894 100.33 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "D_ESD_5V0_OUT"
-			(at 167.64 100.076 90)
+			(at 168.148 102.616 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 					(color 179 61 255 1)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
@@ -3458,7 +3458,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "D_ESD_5V0_OUT")
+					(reference "D_ESD_5V0_OUT1")
 					(unit 1)
 				)
 			)
@@ -3473,7 +3473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0dc0dc2a-f7a8-4e17-b30e-910d8fbb3fdf")
-		(property "Reference" "CMC_LN_FILTER"
+		(property "Reference" "CMC_LN_FILTER1"
 			(at 72.898 94.996 0)
 			(effects
 				(font
@@ -3532,7 +3532,7 @@
 		(instances
 			(project ""
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "CMC_LN_FILTER")
+					(reference "CMC_LN_FILTER1")
 					(unit 1)
 				)
 			)
@@ -3547,7 +3547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bb0b613-741a-43d8-8ea3-8845f8fc58a1")
-		(property "Reference" "REG_AC5V"
+		(property "Reference" "REG_AC5V1"
 			(at 125.73 102.108 0)
 			(effects
 				(font
@@ -3612,7 +3612,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "REG_AC5V")
+					(reference "REG_AC5V1")
 					(unit 1)
 				)
 			)
@@ -3627,7 +3627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "443311a7-5d25-488a-a358-2b9b2456e3fe")
-		(property "Reference" "C_3V3IN_HF"
+		(property "Reference" "C_3V3IN_HF1"
 			(at 199.39 99.822 0)
 			(effects
 				(font
@@ -3686,7 +3686,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "C_3V3IN_HF")
+					(reference "C_3V3IN_HF1")
 					(unit 1)
 				)
 			)
@@ -3766,7 +3766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d3079f9-e816-453e-846b-63dc714c2609")
-		(property "Reference" "CY2_L_PE"
+		(property "Reference" "CY2_L_PE1"
 			(at 103.378 88.392 0)
 			(effects
 				(font
@@ -3825,7 +3825,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "CY2_L_PE")
+					(reference "CY2_L_PE1")
 					(unit 1)
 				)
 			)
@@ -3840,7 +3840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "508b257b-6138-4c38-9c02-aa18ca83ea09")
-		(property "Reference" "NTC_INRUSH_L"
+		(property "Reference" "NTC_INRUSH_L1"
 			(at 55.626 85.598 90)
 			(effects
 				(font
@@ -3893,7 +3893,7 @@
 		(instances
 			(project ""
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "NTC_INRUSH_L")
+					(reference "NTC_INRUSH_L1")
 					(unit 1)
 				)
 			)
@@ -3908,7 +3908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55381f6c-e41b-410f-b004-7bf9a5ba552a")
-		(property "Reference" "REG_5TO_3V3"
+		(property "Reference" "REG_5TO_3V1"
 			(at 214.63 99.822 0)
 			(effects
 				(font
@@ -3972,7 +3972,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "REG_5TO_3V3")
+					(reference "REG_5TO_3V1")
 					(unit 1)
 				)
 			)
@@ -3987,7 +3987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5957ac41-892b-4f83-9f0f-904da563b80f")
-		(property "Reference" "TP_5V0"
+		(property "Reference" "TP_5V1"
 			(at 170.18 77.216 90)
 			(effects
 				(font
@@ -4038,7 +4038,7 @@
 		(instances
 			(project ""
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "TP_5V0")
+					(reference "TP_5V1")
 					(unit 1)
 				)
 			)
@@ -4184,7 +4184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61670550-ecc3-4589-8da4-ab467480cddf")
-		(property "Reference" "CY2_N_PE"
+		(property "Reference" "CY2_N_PE1"
 			(at 103.124 96.012 0)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "CY2_N_PE")
+					(reference "CY2_N_PE1")
 					(unit 1)
 				)
 			)
@@ -4258,7 +4258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7013a241-8e9d-42e4-bfb1-0da9dd73de1b")
-		(property "Reference" "C_3V3IN_BULK"
+		(property "Reference" "C_3V3IN_BULK1"
 			(at 185.42 99.822 0)
 			(effects
 				(font
@@ -4311,7 +4311,7 @@
 		(instances
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "C_3V3IN_BULK")
+					(reference "C_3V3IN_BULK1")
 					(unit 1)
 				)
 			)
@@ -4326,7 +4326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71146a14-c311-4a0e-b69f-adc612159889")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 183.6421 81.28 0)
 			(effects
 				(font
@@ -4377,7 +4377,7 @@
 		(instances
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4392,7 +4392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7241be71-481f-4b53-88a3-f40463c35c44")
-		(property "Reference" "C_DIFF_EMI_FILTER"
+		(property "Reference" "C_DIFF_EMI_FILTER1"
 			(at 79.248 99.314 0)
 			(effects
 				(font
@@ -4451,7 +4451,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "C_DIFF_EMI_FILTER")
+					(reference "C_DIFF_EMI_FILTER1")
 					(unit 1)
 				)
 			)
@@ -4466,7 +4466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79d8f253-43ce-4155-912b-7f5b5181885d")
-		(property "Reference" "MAIN_AC_INPUT"
+		(property "Reference" "MAIN_AC_INPUT1"
 			(at 21.59 96.012 0)
 			(effects
 				(font
@@ -4522,7 +4522,7 @@
 		(instances
 			(project ""
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "MAIN_AC_INPUT")
+					(reference "MAIN_AC_INPUT1")
 					(unit 1)
 				)
 			)
@@ -4537,7 +4537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e7f25d2-1894-4ba8-94db-2c986f59e913")
-		(property "Reference" "D_ESD_3V3_OUT"
+		(property "Reference" "D_ESD_3V3_OUT1"
 			(at 262.89 99.06 90)
 			(effects
 				(font
@@ -4597,7 +4597,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "D_ESD_3V3_OUT")
+					(reference "D_ESD_3V3_OUT1")
 					(unit 1)
 				)
 			)
@@ -4612,7 +4612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a514e8e0-2552-496d-8519-ad4db033b4fc")
-		(property "Reference" "C_5V_BULK"
+		(property "Reference" "C_5V_BULK1"
 			(at 139.954 100.076 0)
 			(effects
 				(font
@@ -4671,7 +4671,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "C_5V_BULK")
+					(reference "C_5V_BULK1")
 					(unit 1)
 				)
 			)
@@ -4686,7 +4686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "deaf438e-95cb-40d4-87d1-d323f653a866")
-		(property "Reference" "C_5V_HF"
+		(property "Reference" "C_5V_HF1"
 			(at 153.67 100.076 0)
 			(effects
 				(font
@@ -4745,7 +4745,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "C_5V_HF")
+					(reference "C_5V_HF1")
 					(unit 1)
 				)
 			)
@@ -4760,7 +4760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaae145b-2c52-43de-a6b2-09ac50475265")
-		(property "Reference" "MOV_AC_ENTRY"
+		(property "Reference" "MOV_AC_ENTRY1"
 			(at 89.916 79.502 0)
 			(effects
 				(font
@@ -4858,7 +4858,7 @@
 		(instances
 			(project ""
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "MOV_AC_ENTRY")
+					(reference "MOV_AC_ENTRY1")
 					(unit 1)
 				)
 			)
@@ -4873,7 +4873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa7b614c-26d2-4393-a51e-759bf1566557")
-		(property "Reference" "C_3V3_HF"
+		(property "Reference" "C_3V3_HF1"
 			(at 245.11 99.822 0)
 			(effects
 				(font
@@ -4932,7 +4932,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "C_3V3_HF")
+					(reference "C_3V3_HF1")
 					(unit 1)
 				)
 			)
@@ -4947,7 +4947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe92f5e7-2ced-4b63-aaf1-298a04739c71")
-		(property "Reference" "C_3V3_BULK"
+		(property "Reference" "C_3V3_BULK1"
 			(at 227.33 99.822 0)
 			(effects
 				(font
@@ -5006,7 +5006,7 @@
 			)
 			(project "MC_X2c"
 				(path "/7c61db7a-af98-4251-97f0-4a36956e03cd/b18795d0-8482-4f6f-8249-1321515800c6"
-					(reference "C_3V3_BULK")
+					(reference "C_3V3_BULK1")
 					(unit 1)
 				)
 			)
